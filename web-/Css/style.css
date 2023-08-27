@@ -1,0 +1,152 @@
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;/*specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.*/
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    /* Navigation bar*/
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+/* End*/
+
+
+
+/*for the contact image*/
+.content {
+    /* The image used */
+    background-image: url("Images/matteo-kutufa-1299700-unsplash.jpg");
+    font-family: MERRIWEATHER;
+    /* Control the height of the image */
+    min-height: 780px;
+    /* Center and scale the image nicely*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Add styles to the form img */
+.img {
+    max-width: 300px;
+    padding: 15px 2% 2em 8%;
+    /*top,right,bottom and left*/
+    background-color: white;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0);
+    /* Black background with opacity ,(red, green, blue, alpha)*/
+    color: white;
+    /*  text color */
+    width: 100%;
+    /* Full width */
+}
+
+.menu {
+    font-family: MERRIWEATHER;
+}
+
+/* Set a style for the submit button */
+.button {
+    background-color: #808080;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 79%;
+    opacity: 0.9;
+}
+
+.button:hover {
+    opacity: 2;
+}
+
+/* End*/
+
+/* Place the navbar at the bottom of the page, and make it stick */
+
+.bottomnav {
+    background-color: #C0C0C0;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/* Style the links inside the navigation bar */
+.bottomnav a {
+    float: right;
+    display: block;
+    color: #808080;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* End*/
+
+.art {
+
+    border: solid grey;
+    margin: 10px;
+    padding: 15px 2% 2em 8%;
+}
+
+.internettext {
+    font-family: MERRIWEATHER;
+}
+.txt {
+    font-family: MERRIWEATHER;
+}
+
+.social-icons{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .social-icons span{
+      margin:20px 5px;
+      transition: background-color 0.3s ease, opacity 0.3s ease, border 0.3s ease;
+    text-align: center;
+    /* border: 2px solid #565656; */
+   
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s;
+    height: 50px;
+    width: 50px;
+    display: block;
+    padding: auto;
+  }
+  
+  .social-icons span:hover {
+    border: 1px solid #28e98c;
+    background-color: black;
+    color: #28e98c;
+    transform: scale(1.1);
+  }
