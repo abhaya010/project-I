@@ -489,16 +489,16 @@ $username = $isLoggedIn ? $_SESSION['username'] : 'Guest';
                 <p class="team-title" style="font-size: 18px; font-weight: bold;text-align:center;font-size:30px;"> Our Team</p>
                 <div class="row" style="display: flex; justify-content: center; margin-left: -10px; margin-right: -10px;">
                     <div class="column" style="display:flex;flex-direction:column;text-align: center; margin: 0 10px;align-items:center">
-                        <img src="Images/girl.jpg" alt="Subica Bista"  id="girl-avatar" onmouseenter="enlarge()" onmouseleave="descale()" class="profile-image" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
+                        <img src="......jpg" alt="..."  id="girl-avatar" onmouseenter="enlarge()" onmouseleave="descale()" class="profile-image" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover;">
                         <p class="team-member-description" style="margin-top: 10px; font-size: 16px;">
-                            <span class="member-name" style="font-weight: bold;align-items:center">Subika Bista</span><br>
+                            <span class="member-name" style="font-weight: bold;align-items:center">...</span><br>
 
                         </p>
                         <div class="social-icons" style="text-align: center; margin-top: 20px;">
-                            <a href="https://www.instagram.com/subeecaa/" target="_blank" style="text-decoration: none; margin: 0 10px;">
+                            <a href="........." target="_blank" style="text-decoration: none; margin: 0 10px;">
                                 <i class="fa fa-instagram" style="font-size: 30px "></i>
                             </a>
-                            <a href="https://github.com/subikaa" target="_blank" style="text-decoration: none; margin: 0 10px;">
+                            <a href="......." target="_blank" style="text-decoration: none; margin: 0 10px;">
                                 <i class="fa fa-github" style="font-size: 30px;"></i>
                             </a>
                             <a href="https://www.linkedin.com/in/subeecaa-bista-874359259/" target="_blank" style="text-decoration: none; margin: 0 10px;">
